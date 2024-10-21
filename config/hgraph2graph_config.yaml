@@ -1,0 +1,14 @@
+vocab: "/nfs/turbo/umms-welchjd/azhung/dalle2/LUMIC/hgraph2graph/all_vocab_zinc.txt"
+model: "/nfs/turbo/umms-welchjd/azhung/dalle2/LUMIC/hgraph2graph/model.ckpt.156260"
+seed: 7
+nsample: 10000
+rnn_type: 'LSTM'
+hidden_size: 256
+embed_size: 256
+batch_size: 50
+latent_size: 128
+depthT: 15
+depthG: 15
+diterT: 1
+diterG: 3
+dropout: 0.0
