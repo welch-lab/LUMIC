@@ -1,6 +1,3 @@
-<--
-*** README from https://github.com/othneildrew/Best-README-Template
--->
 <!-- ABOUT THE PROJECT -->
 ## LUMIC
 
@@ -9,6 +6,8 @@ Latent diffUsion for Multiplexed Images of Cells is a diffusion model pipeline d
 <p align="center">
   <img src="https://github.com/welch-lab/LUMIC/blob/main/figs/model_arch.png" width="700" height="400">
 </p>
+
+Code based on lucidrains' [imagen](https://github.com/lucidrains/imagen-pytorch) and [ddpm](https://github.com/lucidrains/denoising-diffusion-pytorch)
 
 ### Installation
 
