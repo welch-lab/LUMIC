@@ -1,4 +1,8 @@
+from tqdm import tqdm
 from unet import *
+from collections import namedtuple
+
+ModelPrediction = namedtuple('ModelPrediction', ['pred_noise', 'pred_x_start'])
 
 def normalize_to_neg_one_to_one(img):
     return img * 2 - 1
