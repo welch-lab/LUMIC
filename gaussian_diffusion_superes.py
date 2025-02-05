@@ -1,5 +1,10 @@
 from unet import *
 import torchvision
+from tqdm import tqdm
+from collections import namedtuple
+
+ModelPrediction =  namedtuple('ModelPrediction', ['pred_noise', 'pred_x_start'])
+    
 def extract(a, t, x_shape):
     b, *_ = t.shape
     t = t.to("cuda")
